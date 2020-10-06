@@ -3,6 +3,7 @@
     "version": "1.0",
     "description": "Build an Extension!",
     "permissions": ["declarativeContent", "storage"],
+    "web_accessible_resources": [ "AllSides-Scraper/biasRatings.json" ],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
